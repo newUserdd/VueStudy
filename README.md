@@ -1,29 +1,4 @@
-# day_1
+## git 操作相关教程
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* [推送项目到github](https://blog.csdn.net/wt1286331074/article/details/80401324)
+* [请输入提交消息来解释为什么这种合并是必要的](https://www.cnblogs.com/wei325/p/5278922.html)
