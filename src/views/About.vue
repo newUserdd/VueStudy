@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>{{food}}</h1>
+    <h1>this is about:{{food}}</h1>
   </div>
 </template>
 <script>

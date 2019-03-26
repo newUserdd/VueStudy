@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <h2>{{food}}</h2>
+    <h2>this is home:{{food}}</h2>
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <button @click="handleClick">返回上一页</button>
     <button @click="pushClick">指定页面</button>
@@ -48,10 +48,10 @@ export default {
         name: "argu",
         params: {
           name: "mary"
+        },
+        query: {
+          nickname: "jack"
         }
-        // query: {
-        //   name: "jack"
-        // }
       });
     },
     replaceClick() {
