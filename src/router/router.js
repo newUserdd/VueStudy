@@ -21,6 +21,10 @@ const routes = [
     component: () => import('@/views/login')
   },
   {
+    path: '/store',
+    component: () => import('@/views/store')
+  },
+  {
     path: '/about',
     name: 'about',
     alias: '/home_about', // 别名
