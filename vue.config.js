@@ -11,9 +11,10 @@ module.exports = {
     config.resolve.alias.set('_c', resolve('src/components'))
   },
   // 打包不生成.map文件
-  productionSourceMap: false
-  // devServer: {
-  //   // 跨域配置
-  //   proxy: 'http://localhost:4000'
-  // }
+  productionSourceMap: false,
+  devServer: {
+    // 跨域配置
+    proxy: 'http://localhost:3000'
+    // proxy: 'https://www.easy-mock.com/'
+  }
 }

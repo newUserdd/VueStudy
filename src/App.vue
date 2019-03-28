@@ -10,7 +10,7 @@
       <router-link :to="{name: 'about'}">About</router-link>
     </div>
     <!-- 多个视图 -->
-    <transition-group name="router">
+    <transition-group >
       <router-view key="default"/>
       <router-view key="email" name="email"/>
       <router-view key="tel" name="tel"/>
@@ -30,7 +30,7 @@ export default {
   //   }
   // },
   mounted() {
-    console.log(this.$route)
+    // console.log(this.$route)
   }
 };
 </script>
