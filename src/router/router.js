@@ -21,6 +21,21 @@ const routes = [
     component: () => import('@/views/login')
   },
   {
+    path: '/render-page',
+    name: 'render_page',
+    component: () => import('@/views/render-page')
+  },
+  {
+    path: '/split-panel',
+    name: 'split_panel',
+    component: () => import('@/views/split-panel')
+  },
+  {
+    path: '/count-to',
+    name: 'count_to',
+    component: () => import('@/views/count-to')
+  },
+  {
     path: '/store',
     component: () => import('@/views/store')
   },
